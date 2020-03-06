@@ -1,9 +1,9 @@
 @media all and (max-width: 1000px) {@media all and (max-width: 1000px) {
 }
-@media all and (max-width: 670px) {
+@media all and (max-width: 500px) {
   .container{
     margin:0 auto;
-    width:670px;
+    width:500px;
     text-align: left;
   }
   #nav-content{
