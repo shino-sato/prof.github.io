@@ -1,0 +1,16 @@
+@media all and (max-width: 1000px) {@media all and (max-width: 1000px) {
+}
+@media all and (max-width: 650px) {
+  .container{
+    margin:0 auto;
+    width:650px;
+    text-align: left;
+  }
+  #nav-content{
+    display:none;
+  }
+  /* menu-iconクラスのdisplayをblockに指定してください  */
+  .hum-wrapper{
+    display:block;
+  }
+}
