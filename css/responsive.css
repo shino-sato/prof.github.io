@@ -1,6 +1,9 @@
 @media all and (max-width: 1000px) {@media all and (max-width: 1000px) {
 }
 @media all and (max-width: 650px) {
+  body{
+    width:650px;
+  }
   .container{
     margin:0 auto;
     width:650px;
