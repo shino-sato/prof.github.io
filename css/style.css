@@ -1,3 +1,7 @@
+*{
+  box-sizing:border-box;
+  z-index:auto;
+}
 h2,p,li,h3{
   color:black;
 }
@@ -8,10 +12,15 @@ h2{
   font-size: 30px;
 }
 h3{
-  font-size: 20px
+  font-size: 20px;
 }
 img{
   max-width:100%;
+}
+body{
+  background-image:url("../portfolio_img/block＿white.jpeg");
+  background-color:rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
 }
 .container{
   margin:0 auto;
@@ -21,6 +30,7 @@ img{
 header{
   height:28px;
   margin-bottom:46px;
+  z-index: 99:
 }
 .menu-icon {
   color: white;
@@ -67,9 +77,6 @@ ul{
   position:fixed;
   top:0px;
 }
-#introduction{
-  margin:50px 0;
-}
 .section-title h2 {
   position: relative;
   background: #dfefff;
@@ -91,4 +98,55 @@ ul{
 }
 .hum-wrapper{
   display:none;
+}
+#introduction{
+  margin:50px 0;
+  background-image:url("../portfolio_img/desk_2.jpg");
+  background-size:cover;
+  background-color:rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
+}
+.intro-main{
+  display:flex;
+  padding:20px 0 20px 0;
+}
+.intro-profile{
+  width:50%;
+  flex: auto;
+}
+.intro-profile p{
+  color:white;
+}
+#intro-sub{
+  display:flex;
+  padding:20px 5px 20px 5px;
+}
+.school{
+  width:25%;
+  text-align: center;
+  border-bottom:1px solid #ccc;
+  position: relative;
+}
+.detasills{
+  text-align:left;
+  display:none;
+}
+.school span{
+  font-size: 20px;
+  position:absolute;
+  color:white;
+  opacity: 0.5;
+}
+
+#skills{
+
+}
+.skil-icons{
+  display:flex;
+  flex-wrap:wrap;
+  padding:10px;
+}
+.skil-icon{
+  flex: auto;
+  width:25%;
 }
