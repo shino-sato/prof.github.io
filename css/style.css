@@ -125,7 +125,6 @@ ul{
   width:25%;
   text-align: center;
   border-bottom:1px solid #ccc;
-  position: relative;
 }
 .detasills{
   text-align:left;
@@ -133,7 +132,6 @@ ul{
 }
 .school span{
   font-size: 20px;
-  position:absolute;
   color:white;
   opacity: 0.5;
 }
