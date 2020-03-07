@@ -45,6 +45,9 @@ header{
   width:100%;
   padding-bottom:15px;
   padding-top:10px;
+  position:fixed;
+  top:0px;
+  z-index: 99:
 }
 .fix-heading img{
   height:50px;
@@ -73,10 +76,6 @@ ul{
   border: 5px solid #fff;
 
 }
-.fix-heading{
-  position:fixed;
-  top:0px;
-}
 .section-title h2 {
   position: relative;
   background: #dfefff;
@@ -85,7 +84,6 @@ ul{
   padding: 0.2em 0.5em;
   color: #454545;
 }
-
 .section-title h2:after {
   position: absolute;
   content: '';
