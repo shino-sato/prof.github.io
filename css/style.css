@@ -133,7 +133,9 @@ ul{
   color:white;
   opacity: 0.5;
 }
-
+.school span:hover{
+    background-color: rgba(255, 255, 255, 1);
+  }
 #skills{
 
 }
