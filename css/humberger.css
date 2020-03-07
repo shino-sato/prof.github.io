@@ -2,7 +2,7 @@
 #ham-menu {
     background-color: #fff; /*メニュー背景色*/
     box-sizing: border-box;
-    height: 50%;
+    height: 20%;
     padding: 10px 40px; /*メニュー内部上下左右余白*/
     position: fixed;
     right: -300px; /*メニュー横幅①と合わせる*/
