@@ -12,9 +12,6 @@
   .hum-wrapper{
     display:block;
   }
-  #ham-menu {
-    height:10%;
-  }
   .container h1{
     font-size: 30px;
   }
@@ -33,5 +30,8 @@
   }
   .school span{
     font-size: 15px;
+  }
+  .slider{
+    text-align: center;
   }
 }
