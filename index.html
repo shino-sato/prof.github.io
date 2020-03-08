@@ -9,11 +9,17 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/humberger.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   </head>
   <body>
+    <div class="start">
+     <p><img src="portfolio_img/welcom.jpg" alt=""></p>
+    </div>
     <header>
       <div class="fix-heading">
           <img src="portfolio_img/IMG_3226.jpg">
@@ -51,8 +57,8 @@
         </div>
     </section>
     <section id="introduction">
-      <div class="section-title"><h2>-INTRODUCTION-</h2></div>
           <div class="container">
+            <div class="section-title"><h2>-INTRODUCTION-</h2></div>
             <div class="intro-main">
               <div class="intro-profile img-box">
                   <img src="portfolio_img/human.jpeg" alt="my-icon">
@@ -60,13 +66,15 @@
               <div class="intro-profile fadein">
                   <p>初めまして。</p>
                   <div class="name">
-                      <p><span class="bold">篠崎聡</span> と申します。</p>
+                      <p><span class="bold">篠崎 聡</span> と申します。<br><br></p>
                   </div>
-                  <p class="fadein">出身:秋田県　育ち：千葉県<br>
-                      職業: 芝浦工業大学 工学部　情報通信工学科2年生 <br><br>
-                      プログラミングを得意としています。<br><br>
-                      プログラミングが好きで、多くの言語に挑戦しています。<br><br>
-                    </p>
+                  <div class="intro-text">
+                    <p class="fadein">出身:秋田県　育ち：千葉県<br>
+                        職業: 芝浦工業大学 工学部　情報通信工学科2年生 <br><br>
+                        プログラミングを得意としています。<br><br>
+                        プログラミングが好きで、多くの言語に挑戦しています。<br><br>
+                      </p>
+                  </div>
               </div>
             </div>
             <ul id="intro-sub">
@@ -79,19 +87,20 @@
               <li class="school">
                 <h3>中学校 <span>+</span></h3>
                 <div class="detasills">
-                  <p>中学校時代は</p>
+                  <p>部活：サッカー<br>
+                  </p>
                 </div>
               </li>
               <li class="school">
                 <h3>高校 <span>+</span></h3>
                 <div class="detasills">
-                  <p>高校時代は</p>
+                  <p>部活：バドミントン</p>
                 </div>
               </li>
               <li class="school">
                 <h3>大学 <span>+</span></h3>
                 <div class="detasills">
-                  <p>大学時代は</p>
+                  <p>バドミントンサークル</p>
                 </div>
               </li>
             </ul>
@@ -132,17 +141,31 @@
     </section>
     <section id="works">
         <div class="inner fadein">
-            <div class="section-title"><h2>-WORKS-</h2></div>
             <div class="container">
-              <div class="works">
-                <div class="work"></div>
-                <div class="work"></div>
-                <div class="work"></div>
+              <div class="section-title slide"><h2>-WORKS-</h2></div>
+              <div class="slider">
+                <div class="work">
+                  <h3>HTML/CSS/JavaScript<br>：ポートフォリオ</h3>
+                  <p>制作日：2020.3.7<br>
+                  レスポンシブ対応</p>
+                </div>
+                <div class="work">
+                  <h3>制作物２</h3>
+                </div>
+                <div class="work">
+                  <h3>制作物３</h3>
+                </div>
               </div>
             </div>
+          </div>
         </div>
     </section>
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <h3>Copyright <i class="far fa-copyright fa-1x"></i> 2020 Shinozaki Satoshi All Rights Reserved.
+        </h3>
+      </div>
+    </footer>
     <script src="js/script.js"></script>
   </body>
 </html>
